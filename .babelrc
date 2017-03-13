@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "es2015"
+  ],
+  "plugins": [
+    "babel-plugin-root-import",
+    "transform-es2015-destructuring",
+    "transform-object-rest-spread",
+    "syntax-object-rest-spread"
+  ]
+}
