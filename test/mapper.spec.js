@@ -50,6 +50,20 @@ describe('angular dependency mapper', () => {
       })
     })
 
+    describe('many flat modules, enterprise style', () => {
+      it(`@${version}: should flatten many already flat modules`, (done) => {
+        const window = makeBrowser(fixtures.indexHtml, ng[version], fixtures.enterprise)
+        return mapper(window.angular, ['app'], /app\.[\w]+/)
+          .then(result => {
+            expect(result.find(findName('root')).dependencies.length).toBe(3)
+            expect(result.find(findName('appInput')).dependencies.length).toBe(1)
+            expect(result.find(findName('appHeader')).dependers.length).toBe(2)
+          })
+          .then(done)
+          .catch(handleErr(done))
+      })
+    })
+
 
   }
 

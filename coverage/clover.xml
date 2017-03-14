@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1489362023256" clover="3.2.0">
-  <project timestamp="1489362023256" name="All files">
-    <metrics statements="66" coveredstatements="65" conditionals="55" coveredconditionals="52" methods="19" coveredmethods="19" elements="140" coveredelements="136" complexity="0" loc="66" ncloc="66" packages="1" files="3" classes="3">
+<coverage generated="1489505295114" clover="3.2.0">
+  <project timestamp="1489505295114" name="All files">
+    <metrics statements="73" coveredstatements="72" conditionals="59" coveredconditionals="56" methods="23" coveredmethods="23" elements="155" coveredelements="151" complexity="0" loc="73" ncloc="73" packages="1" files="3" classes="3">
       <file name="deepsearch.js" path="E:\source\angular-runtime-dependency-mapper\src\deepsearch.js">
         <metrics statements="15" coveredstatements="15" conditionals="15" coveredconditionals="15" methods="2" coveredmethods="2"/>
         <line num="3" count="4" type="stmt"/>
@@ -21,61 +21,68 @@
         <line num="17" count="22" type="stmt"/>
       </file>
       <file name="mapper.js" path="E:\source\angular-runtime-dependency-mapper\src\mapper.js">
-        <metrics statements="45" coveredstatements="44" conditionals="36" coveredconditionals="33" methods="14" coveredmethods="14"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="11" count="4" type="stmt"/>
+        <metrics statements="52" coveredstatements="51" conditionals="40" coveredconditionals="37" methods="18" coveredmethods="18"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
-        <line num="17" count="4" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
         <line num="19" count="4" type="stmt"/>
-        <line num="20" count="4" type="stmt"/>
-        <line num="22" count="4" type="stmt"/>
-        <line num="23" count="22" type="stmt"/>
-        <line num="24" count="22" type="stmt"/>
-        <line num="26" count="4" type="stmt"/>
-        <line num="41" count="16" type="stmt"/>
-        <line num="43" count="12" type="stmt"/>
-        <line num="45" count="12" type="stmt"/>
-        <line num="47" count="128" type="stmt"/>
-        <line num="49" count="128" type="stmt"/>
-        <line num="50" count="128" type="stmt"/>
-        <line num="52" count="656" type="stmt"/>
-        <line num="53" count="656" type="stmt"/>
-        <line num="54" count="656" type="stmt"/>
-        <line num="56" count="128" type="stmt"/>
-        <line num="58" count="12" type="stmt"/>
-        <line num="60" count="4" type="stmt"/>
-        <line num="79" count="4" type="stmt"/>
-        <line num="80" count="4" type="stmt"/>
-        <line num="81" count="4" type="stmt"/>
-        <line num="82" count="244" type="stmt"/>
-        <line num="83" count="244" type="stmt"/>
-        <line num="84" count="12" type="stmt"/>
-        <line num="85" count="2" type="stmt"/>
-        <line num="91" count="4" type="stmt"/>
-        <line num="92" count="4" type="stmt"/>
-        <line num="109" count="22" type="stmt"/>
-        <line num="110" count="22" type="stmt"/>
-        <line num="111" count="22" type="stmt"/>
-        <line num="112" count="22" type="stmt"/>
-        <line num="113" count="22" type="stmt"/>
-        <line num="114" count="8" type="stmt"/>
-        <line num="115" count="14" type="stmt"/>
-        <line num="116" count="2" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="35" count="34" type="stmt"/>
+        <line num="36" count="34" type="stmt"/>
+        <line num="39" count="8" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+        <line num="42" count="8" type="stmt"/>
+        <line num="58" count="28" type="stmt"/>
+        <line num="60" count="24" type="stmt"/>
+        <line num="62" count="24" type="stmt"/>
+        <line num="64" count="200" type="stmt"/>
+        <line num="66" count="200" type="stmt"/>
+        <line num="67" count="200" type="stmt"/>
+        <line num="69" count="1400" type="stmt"/>
+        <line num="70" count="1400" type="stmt"/>
+        <line num="71" count="1400" type="stmt"/>
+        <line num="73" count="200" type="stmt"/>
+        <line num="75" count="24" type="stmt"/>
+        <line num="77" count="4" type="stmt"/>
+        <line num="89" count="28" type="stmt"/>
+        <line num="90" count="200" type="stmt"/>
+        <line num="91" count="200" type="stmt"/>
+        <line num="93" count="28" type="stmt"/>
+        <line num="111" count="4" type="stmt"/>
+        <line num="112" count="4" type="stmt"/>
+        <line num="113" count="4" type="stmt"/>
+        <line num="114" count="244" type="stmt"/>
+        <line num="116" count="244" type="stmt"/>
         <line num="117" count="12" type="stmt"/>
-        <line num="118" count="0" type="stmt"/>
-        <line num="119" count="12" type="stmt"/>
-        <line num="120" count="2" type="stmt"/>
+        <line num="118" count="2" type="stmt"/>
+        <line num="124" count="4" type="stmt"/>
+        <line num="125" count="4" type="stmt"/>
+        <line num="142" count="34" type="stmt"/>
+        <line num="143" count="34" type="stmt"/>
+        <line num="144" count="34" type="stmt"/>
+        <line num="145" count="34" type="stmt"/>
+        <line num="146" count="34" type="stmt"/>
+        <line num="147" count="18" type="stmt"/>
+        <line num="148" count="16" type="stmt"/>
+        <line num="149" count="2" type="stmt"/>
+        <line num="150" count="14" type="stmt"/>
+        <line num="151" count="0" type="stmt"/>
+        <line num="152" count="14" type="stmt"/>
+        <line num="153" count="4" type="stmt"/>
       </file>
       <file name="traverse.js" path="E:\source\angular-runtime-dependency-mapper\src\traverse.js">
         <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
-        <line num="3" count="12" type="stmt"/>
-        <line num="4" count="128" type="stmt"/>
-        <line num="5" count="128" type="stmt"/>
-        <line num="6" count="80" type="stmt"/>
-        <line num="7" count="116" type="stmt"/>
-        <line num="10" count="48" type="stmt"/>
+        <line num="3" count="24" type="stmt"/>
+        <line num="4" count="200" type="stmt"/>
+        <line num="5" count="200" type="stmt"/>
+        <line num="6" count="140" type="stmt"/>
+        <line num="7" count="176" type="stmt"/>
+        <line num="10" count="60" type="stmt"/>
       </file>
     </metrics>
   </project>

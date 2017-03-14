@@ -17,6 +17,7 @@ export const makeBrowser = (html, ...scripts) => {
 }
 
 export const handleErr = (done) => (e) => {
-  expect(e instanceof Error).toBeFalsy()
+  // expect(e instanceof Error).toBeFalsy()
+  console.log(e)
   done(e)
 }
