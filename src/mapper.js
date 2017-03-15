@@ -11,7 +11,7 @@ import traverse from './traverse'
  * @param {regex} dependencyFilter - filter to exclude 3rd party dependencies
  * @return {array} list of application dependencies
  */
-export default (angular, modules, dependencyFilter) => new Promise((resolve, reject) => {
+export default (angular, modules, dependencyFilter = /./g) => new Promise((resolve, reject) => {
   const dependencies = modules
     .reduce((acc, moduleName) => reduceModules(acc, moduleName, angular, dependencyFilter), [])
     .map(mapDependencies)
@@ -25,7 +25,7 @@ export default (angular, modules, dependencyFilter) => new Promise((resolve, rej
  * @param {string} moduleName - name of angular module
  * @return {array} reduce accumulator
  */
-function reduceModules(acc, moduleName, angular, dependencyFilter = /./g) {
+function reduceModules(acc, moduleName, angular, dependencyFilter) {
   const { _invokeQueue, _configBlocks, _runBlocks, requires } = angular.module(moduleName)
   const configBlocks = _configBlocks.reduce((list, args) => {
     const res = reduceConfigBlocks(moduleName, 'config', args[2][0])

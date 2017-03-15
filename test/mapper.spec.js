@@ -64,6 +64,20 @@ describe('angular dependency mapper', () => {
       })
     })
 
+    describe('works without dependency filter', () => {
+      it(`@${version}: should work without dependency filter`, (done) => {
+        const window = makeBrowser(fixtures.indexHtml, ng[version], fixtures.enterprise)
+        return mapper(window.angular, ['app'])
+          .then(result => {
+            expect(result.find(findName('root')).dependencies.length).toBe(3)
+            expect(result.find(findName('appInput')).dependencies.length).toBe(1)
+            expect(result.find(findName('appHeader')).dependers.length).toBe(2)
+          })
+          .then(done)
+          .catch(handleErr(done))
+      })
+    })
+
 
   }
 
