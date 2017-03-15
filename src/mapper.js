@@ -25,7 +25,7 @@ export default (angular, modules, dependencyFilter) => new Promise((resolve, rej
  * @param {string} moduleName - name of angular module
  * @return {array} reduce accumulator
  */
-function reduceModules(acc, moduleName, angular, dependencyFilter) {
+function reduceModules(acc, moduleName, angular, dependencyFilter = /./g) {
   const { _invokeQueue, _configBlocks, _runBlocks, requires } = angular.module(moduleName)
   const configBlocks = _configBlocks.reduce((list, args) => {
     const res = reduceConfigBlocks(moduleName, 'config', args[2][0])
