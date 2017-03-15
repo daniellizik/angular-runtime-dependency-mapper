@@ -31,7 +31,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
  * @param {regex} dependencyFilter - filter to exclude 3rd party dependencies
  * @return {array} list of application dependencies
  */
-exports.default = function (angular, modules, dependencyFilter) {
+exports.default = function (angular, modules) {
+  var dependencyFilter = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : /./g;
   return new Promise(function (resolve, reject) {
     var dependencies = modules.reduce(function (acc, moduleName) {
       return reduceModules(acc, moduleName, angular, dependencyFilter);
