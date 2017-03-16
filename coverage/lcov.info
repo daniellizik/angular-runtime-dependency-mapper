@@ -55,7 +55,7 @@ FN:57,mapDependencies
 FN:62,(anonymous_9)
 FN:66,(anonymous_10)
 FN:67,(anonymous_11)
-FN:88,mapDependers
+FN:88,mapDependents
 FN:89,(anonymous_13)
 FN:110,reduceConfigBlocks
 FN:113,(anonymous_15)
@@ -75,7 +75,7 @@ FNDA:44,mapDependencies
 FNDA:428,(anonymous_9)
 FNDA:32,(anonymous_10)
 FNDA:2312,(anonymous_11)
-FNDA:44,mapDependers
+FNDA:44,mapDependents
 FNDA:264,(anonymous_13)
 FNDA:4,reduceConfigBlocks
 FNDA:244,(anonymous_15)
