@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1489612596536" clover="3.2.0">
-  <project timestamp="1489612596536" name="All files">
+<coverage generated="1489636719813" clover="3.2.0">
+  <project timestamp="1489636719814" name="All files">
     <metrics statements="73" coveredstatements="72" conditionals="60" coveredconditionals="57" methods="23" coveredmethods="23" elements="156" coveredelements="152" complexity="0" loc="73" ncloc="73" packages="1" files="3" classes="3">
       <file name="deepsearch.js" path="E:\source\angular-runtime-dependency-mapper\src\deepsearch.js">
         <metrics statements="15" coveredstatements="15" conditionals="15" coveredconditionals="15" methods="2" coveredmethods="2"/>
